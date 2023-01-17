@@ -12,7 +12,7 @@
     
     git config --global user.name namexample
 
-> 
+> atribui um e-mail e apelido para o usuário do git
 
 ## Atributos Git
 
@@ -29,8 +29,9 @@
     git add *
 
 > Muda o atributo de um arquivo para Staged
+> '*' seleciona todos os arquivos
 
-## Commit
+## commit
 
     git commit -m "commit inicial"
 
@@ -39,6 +40,12 @@
 > Nomeia snapshot
 > Arquivos do Commit passam a integrar o Local Repository
 > Local Repository pode ser empurrado para um Remote Repository (GitHub)
+
+## status
+
+    git status
+
+
 
 
 
