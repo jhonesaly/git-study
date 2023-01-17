@@ -16,8 +16,8 @@
 
 ## Atributos Git
 
-- Untracked ( - gray)
-- Unmodified (U - green)
+- Untracked (U - green)
+- Unmodified ( - gray)
 - Modified (M - orange)
 - Staged
 
@@ -37,6 +37,8 @@
 > Cria snapshot (como checkpoint) dos arquivos Staged 
 > Modifica atributos para Unmodified
 > Nomeia snapshot
+> Arquivos do Commit passam a integrar o Local Repository
+> Local Repository pode ser empurrado para um Remote Repository (GitHub)
 
 
 
