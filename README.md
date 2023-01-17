@@ -4,5 +4,6 @@ Repositório para referência dos principais comandos e funcionalidades de Git e
 
 Incluindo:
 
-- gitsteps: principais passos para iniciar e gerenciar um repositório
+- gitsteps: principais passos para iniciar e gerenciar um repositório local
+- githubsteps: principais passos para iniciar e gerenciar repositório remoto no GitHub
 - notes_markdown: notas com principais tags de markdown
