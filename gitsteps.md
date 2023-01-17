@@ -63,6 +63,12 @@
 
 > Monstra commits do repositório
 
+## clone
+
+    git clone https://github.com/username/remoterepository
+
+> clona para o repositório local um repositório no github
+
 
 
 
