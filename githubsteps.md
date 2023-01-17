@@ -162,12 +162,24 @@ Tipos de licença de distribuição disponíveis no GitHub:
 
 ## Adicionando arquivos no repositório remoto
 
-O repositório remoto pode ser criado primeiramente no Github e então os arquivos serem criados diretamente nele, ou pode-se jogar todos os arquivos de um repositório local, com todos os seus commits, para o um repositório remoto através do comando push
+O repositório remoto pode ser criado primeiramente no Github e então os arquivos serem criados diretamente nele, ou pode-se jogar todos os arquivos de um repositório local, com todos os seus commits, para o um repositório remoto através do comando push.
 
-Para trazer um repositório remoto e suas alterações para o repositório locla, utiliza-se o comando pull
+Para trazer um repositório remoto e suas alterações para o repositório local, utiliza-se o comando pull.
+
+### Criando repositório local vazio fazendo pull para remoto
+
+    echo "# git-study" >> README.md
+    git init
+    git add README.md
+    git commit -m "first commit"
+    git branch -M main
+    git remote add origin git@github.com:username/repositoryname.git
+    git push -u origin main
+
+> para fazer o pull é necessário fornecer a senha de acesso ao seu GitHub
 
 
-### Pull para o repositório remoto
+### Pull de repositório local para o repositório remoto
 
     git remote add origin git@github.com:username/repositoryname.git
     git branch -M main
@@ -178,3 +190,7 @@ Para trazer um repositório remoto e suas alterações para o repositório locla
 > O comando "git branch -M main" renomeia a branch atual para "main". Isso é útil quando você quer mudar o nome da branch principal de um repositório, para evitar conflitos com as convenções de nomenclatura de branch.
 
 > O comando "git push -u origin main" envia as alterações da branch local "main" para o repositório remoto "origin" e cria uma nova branch com o mesmo nome no repositório remoto. O parâmetro "-u" é usado para estabelecer a branch remota como a branch padrão para o qual as alterações serão enviadas no futuro. Isso é útil para garantir que as alterações na branch local sejam sempre enviadas para a branch remota correspondente.
+
+### Pull usando vscode
+
+Para fazer o pull e push de maneira simplificada no vscode, basta ir na barra vertical esqueda, localizar o "Source Control" e realizar todos esses comandos.
