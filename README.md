@@ -1,6 +1,6 @@
 # Estudo de Git e GitHub
 
-Repositório para referência dos principais comandos e funcionalidades de Gite GitHub.
+Repositório para referência dos principais comandos e funcionalidades de Git e GitHub.
 
 Incluindo:
 
