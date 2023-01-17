@@ -6,7 +6,15 @@
 > Cria a pasta .git e torna a pasta atual um repositório
 > No vscode o git init pode ser criado em source control
 
-## user
+## config
+
+    git config --list
+    git config --global
+
+> 'list' vai listar todas as configurações do Git
+> 'global' vai aplicar alterações em todos os repositórios
+
+### user
 
     git config --global user.email "example@email.com"
     
@@ -30,6 +38,7 @@
 
 > Muda o atributo de um arquivo para Staged
 > '*' seleciona todos os arquivos
+> '.' também seleciona tudo
 
 ## commit
 
