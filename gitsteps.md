@@ -10,9 +10,11 @@
 
     git config --list
     git config --global
+    git config --unset user.name
 
 > 'list' vai listar todas as configurações do Git
 > 'global' vai aplicar alterações em todos os repositórios
+> 'unset' remove algo das configurações
 
 ### user
 
