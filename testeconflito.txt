@@ -1,1 +1,1 @@
-valor = 12
+valor = 27
