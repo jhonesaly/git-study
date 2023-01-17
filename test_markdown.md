@@ -1,5 +1,7 @@
 # Teste de Git
 
+Preview do md: ctrl + shift + v
+
 ## <h2></h2>
 
 ### <h3></h3>
@@ -21,8 +23,8 @@ Lista1:
         + aab
  - b
  - c
- - 1999
- - 1999\
+ - 1999.
+ - 1999.\
 
 
 Lista2:
