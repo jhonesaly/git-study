@@ -1,4 +1,4 @@
-# GitHub
+# Gerenciando repositório remoto no GitHub
 
 ## Criando repositório remoto
 
