@@ -56,6 +56,12 @@
 
     git status
 
+## log
+
+    git log
+
+> Monstra commits do repositório
+
 
 
 
