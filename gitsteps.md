@@ -40,12 +40,11 @@
     git add *
 
 > Muda o atributo de um arquivo para Staged
-> '*' seleciona todos os arquivos
-> '.' também seleciona tudo
+> selecionar todos os arquivos: '*','.' e '-A'
 
 ## commit
 
-    git commit -m "commit inicial"
+    git commit -m "anotações"
 
 > Cria snapshot (como checkpoint) dos arquivos Staged 
 > Modifica atributos para Unmodified
@@ -68,8 +67,13 @@
     git clone https://github.com/username/remoterepository
 
 > clona para o repositório local um repositório no github
+> pode ser feito com o Git bash
 
+## push
 
+    git push -u origin main
 
-
-
+> empurra as alterações 'staged' para a nuvem
+> A opção "-u" é usada para estabelecer a associação entre o ramo local e o ramo remoto. Isso significa que, ao usar "git push -u origin main", você está informando ao Git que deseja que o ramo "main" no repositório remoto "origin" seja o destino padrão para futuros "git push" no seu ramo local "main".
+> "Origin" é o nome padrão que o Git dá ao repositório remoto quando você clona um repositório pela primeira vez usando "git clone". No entanto, você pode dar a ele outro nome, se desejar. Para fazer isso, você pode usar o comando "git remote rename"
+> 
