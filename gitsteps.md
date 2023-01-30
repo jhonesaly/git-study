@@ -76,4 +76,4 @@
 > empurra as alterações 'staged' para a nuvem
 > A opção "-u" é usada para estabelecer a associação entre o ramo local e o ramo remoto. Isso significa que, ao usar "git push -u origin main", você está informando ao Git que deseja que o ramo "main" no repositório remoto "origin" seja o destino padrão para futuros "git push" no seu ramo local "main".
 > "Origin" é o nome padrão que o Git dá ao repositório remoto quando você clona um repositório pela primeira vez usando "git clone". No entanto, você pode dar a ele outro nome, se desejar. Para fazer isso, você pode usar o comando "git remote rename"
-> 
+> Você pode verificar qual nome está sendo usado para o ramo principal de um repositório Git usando o seguinte comando: git branch -a
