@@ -19,6 +19,9 @@ Arquivo que faz certos tipos de arquivo serem ignorados na hora do commit, facil
 
 Ex de .gitignore para python (Link: <https://github.com/jhonesaly/git-study/blob/main/.gitignore>)
 
+    *.txt # evita que a extensão (txt no caso) entre no commit
+    downloads/ # evita que a pasta (downloads no caso) entre no commit 
+
 ### License 
 
 Tipos de licença de distribuição disponíveis no GitHub:
